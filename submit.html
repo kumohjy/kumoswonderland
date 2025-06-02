@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Submit Your Work</title>
+  <style>
+    body {
+      background-color: #e3f2f7;
+      font-family: 'Helvetica Neue', sans-serif;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      font-size: 2rem;
+    }
+    form {
+      max-width: 400px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    input, textarea {
+      padding: 10px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      font-size: 1rem;
+    }
+    button {
+      background-color: #00789c;
+      color: white;
+      border: none;
+      padding: 10px;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #005f79;
+    }
+    a {
+      display: block;
+      margin-top: 20px;
+      color: #00789c;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>Submit Your Work</h1>
+  <form>
+    <input type="text" placeholder="Your Name" required />
+    <input type="email" placeholder="Your Email" required />
+    <textarea rows="4" placeholder="Photo link or description" required></textarea>
+    <button type="submit">Submit</button>
+  </form>
+  <a href="index.html">&larr; Back to Home</a>
+</body>
+</html>
